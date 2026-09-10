@@ -250,7 +250,7 @@ A single launcher (`EventMeshApplication`) starts traffic HTTP + admin (+
 opt-in WebSocket). The deletion list removed the TCP/gRPC server paths,
 `eventmesh-registry`, and dead modules (~59% of the tree). The phased plan
 tracked the migration; the evidence trail lives in
-[architecture review evidence](review/evidence.md).
+[architecture review evidence](redesign.md).
 
 ---
 
@@ -401,7 +401,7 @@ routing was later covered by the sticky-instance model.)*
 
 The end-to-end test-case design (§18) mapped every guarantee above to a
 named test; the current test inventory and per-PR evidence live in
-[review evidence](review/evidence.md).
+[review evidence](redesign.md).
 
 The streaming design (§20–21, integrated from the streaming-session,
 sdk-streaming-call, and lite-streaming-call designs) defines the two
@@ -428,7 +428,7 @@ still-current content from those appendices lives in the feature and
 reference pages of this documentation tree (configuration, protocols,
 offset management, load balancing, frame protocol); the point-in-time
 gap/migration tables are superseded by the
-[architecture review evidence](review/evidence.md) and are intentionally
+[architecture review evidence](redesign.md) and are intentionally
 not reproduced.
 
 *Document version: v2.0 (English rewrite of the Chinese original) ·

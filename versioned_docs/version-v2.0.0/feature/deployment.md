@@ -154,7 +154,7 @@ tests today.
 - **Container-dependent test suites** (Testcontainers E2E, broker-failover
   chaos, rolling-upgrade drills) require a Docker environment; they are
   tracked as deferred coverage, not as passing guarantees
-  ([HA plan](../architecture/review/production-ha-plan.md)).
+  ([HA plan](../architecture/redesign.md)).
 - Nacos watch timing can fluctuate under churn; multi-instance watch-suite
   runs are occasionally flaky (timing, not correctness).
 - A2A gateway and v2 streaming sessions need a dedicated launcher (see

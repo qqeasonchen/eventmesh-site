@@ -99,9 +99,9 @@ too.
 - [Unified architecture redesign](architecture/redesign.md) — the original
   rewrite design record (English rewrite): iron rules, target architecture,
   decision log, semantics boundaries.
-- [Architecture review evidence](architecture/review/evidence.md) —
+- [Architecture review evidence](architecture/redesign.md) —
   PR/test evidence behind every closed review issue.
-- [Production HA acceptance plan](architecture/review/production-ha-plan.md)
+- [Production HA acceptance plan](architecture/redesign.md)
 
 ## Conventions
 
